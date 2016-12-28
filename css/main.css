@@ -1,0 +1,158 @@
+* {
+  margin:0;
+  padding:0;
+}
+body {
+  font-family: Lobster;
+  color: black;
+}
+ 
+header {
+  width:100%;
+}
+ 
+header nav {
+  width:100%;
+  margin:20px auto;
+  background:#C4689B;
+}
+ /* header */
+.menu_bar {
+  display:none;
+}
+ 
+header nav ul {
+  overflow:hidden;
+  list-style:none;
+}
+ 
+header nav ul li {
+  float:left;
+}
+ /* nav*/ 
+header nav ul li a {
+  color:#fff;
+  padding:20px;
+  display:block;
+  text-decoration:none;
+}
+ 
+header nav ul li span {
+  margin-right:10px;
+}
+ 
+header nav ul li a:hover {
+  background:#037E8C;
+}
+ 
+section {
+  padding:20px;
+}
+ 
+@media screen and (max-width:800px ) {
+  header nav {
+    width:80%;
+    height:100%;
+    left:-100%;
+    margin:0;
+    position: fixed;
+    z-index: 2;
+  }
+ 
+  header nav ul li {
+    display:block;
+    float:none;
+    border-bottom:1px solid rgba(255,255,255, .3);
+  }
+ 
+  .menu_bar {
+    display:block;
+    width:100%;
+    background:#ccc;
+  }
+ 
+  .menu_bar .bt-menu {
+    display:block;
+    padding:20px;
+    background:#C4689B;
+    color:#fff;
+    text-decoration:none;
+    font-weight: bold;
+    font-size:25px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+  }
+ 
+  .menu_bar span {
+    float:right;
+    font-size:40px;
+  }
+}
+
+.portada{
+  background-color: white;
+ }
+
+.nombre {
+  padding-top: 10%;
+}
+
+p{
+  font-size: 30px;
+}
+
+.materia {
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}
+
+.perfil {
+ border-radius: 300px;
+  width: 20%;
+  height: 20%;
+}
+
+.trabajos {
+  margin: 5%;
+  width: 50%;
+  height: 50%;
+  display: inline;
+}
+
+.menu {
+  background-color: #C4689B;
+  color: #F7EFF4;
+}
+
+.Junior {
+  background-color: #F7EFF4;
+  color: #C4689B;
+}
+ 
+.valeska {
+  background-color: #C4689B;
+  color: #F7EFF4;
+}
+
+.habilidades {
+  background-color: #F7EFF4;
+  color: #C4689B;
+}
+
+.proyectos {
+  background-color: #C4689B;
+  color: #F7EFF4;
+}
+
+.fin {
+  background-color: #F7EFF4;
+  color: #C4689B;
+}
+
+ul{
+  margin-bottom: 0px;
+}
