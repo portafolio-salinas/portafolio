@@ -1,54 +1,55 @@
 * {
   margin:0;
-  padding:0;
+  padding:6px;
 }
+
 body {
-  font-family: Lobster;
-  color: black;
+  background:#FFFFFA;
 }
- 
+
 header {
   width:100%;
 }
- 
+
 header nav {
-  width:100%;
+  width:90%;
+  max-width:1000px;
   margin:20px auto;
-  background:#C4689B;
+  background:#024959;
 }
- /* header */
+
 .menu_bar {
   display:none;
 }
- 
+
 header nav ul {
   overflow:hidden;
   list-style:none;
 }
- 
+
 header nav ul li {
   float:left;
 }
- /* nav*/ 
+
 header nav ul li a {
   color:#fff;
   padding:20px;
   display:block;
   text-decoration:none;
 }
- 
+
 header nav ul li span {
   margin-right:10px;
 }
- 
+
 header nav ul li a:hover {
   background:#037E8C;
 }
- 
+
 section {
   padding:20px;
 }
- 
+
 @media screen and (max-width:800px ) {
   header nav {
     width:80%;
@@ -56,25 +57,24 @@ section {
     left:-100%;
     margin:0;
     position: fixed;
-    z-index: 2;
   }
- 
+
   header nav ul li {
     display:block;
     float:none;
     border-bottom:1px solid rgba(255,255,255, .3);
   }
- 
+
   .menu_bar {
     display:block;
     width:100%;
     background:#ccc;
   }
- 
+
   .menu_bar .bt-menu {
     display:block;
     padding:20px;
-    background:#C4689B;
+    background:#024959;
     color:#fff;
     text-decoration:none;
     font-weight: bold;
@@ -83,13 +83,12 @@ section {
     -moz-box-sizing:border-box;
     box-sizing:border-box;
   }
- 
+
   .menu_bar span {
     float:right;
     font-size:40px;
   }
 }
-
 .portada{
   background-color: white;
  }
@@ -99,7 +98,8 @@ section {
 }
 
 p{
-  font-size: 30px;
+  font-size: 22px;
+   font-family: 'Raleway', sans-serif;
 }
 
 .materia {
@@ -121,7 +121,7 @@ img {
   width: 50%;
   height: 50%;
   display: inline;
-}
+
 
 .menu {
   background-color: #C4689B;
@@ -156,3 +156,47 @@ img {
 ul{
   margin-bottom: 0px;
 }
+/*codigo video de fondo
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+fin del codigo de video*/
+
